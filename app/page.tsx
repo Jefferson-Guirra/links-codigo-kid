@@ -1,5 +1,6 @@
 import styles from './page.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
 import { BsRobot } from 'react-icons/bs'
 import { IoGameController } from 'react-icons/io5'
 import { MdOutlineComputer,MdOutlineLocalPharmacy } from 'react-icons/md'
@@ -12,7 +13,7 @@ export default function Home() {
       <section className={ styles.content}>
         <article className={ styles.header }>
           <span>
-            <img src="/images/codigo-kid-cover.jpeg" alt="" />
+            <Image width={100 } height={ 100 } src="/images/codigo-kid-cover.jpeg" alt="" />
           </span>
           <h2>Código Kid Campo Formoso</h2>
           <p>A maior escola de programação, tecnologia  e robótica do Brasil!!</p>
