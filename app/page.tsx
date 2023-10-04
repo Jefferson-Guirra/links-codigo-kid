@@ -20,50 +20,50 @@ export default function Home() {
         </article>
 
         <article className={ styles.links }>
-          <Link href= 'https://wa.me/557481086005' className={styles['contact-links']}>Fale conosco</Link>
-          <Link href='https://wa.me/557481086005' className={styles['contact-links']}>Agende uma aula experimental gratuita</Link>
+          <Link href= 'https://wa.me/557481086005' target='_blank' className={styles['contact-links']}>Fale conosco</Link>
+          <Link href='https://wa.me/557481086005' target='_blank' className={styles['contact-links']}>Agende uma aula experimental gratuita</Link>
         </article>
 
         <article className={ styles.courses }>
           <h3 className='btn'> Cursos Profissionalizantes</h3>
           
-          <Link href= 'https://wa.me/557481086005' className={ styles['courses-link']}>
+          <Link href= 'https://wa.me/557481086005' target='_blank' className={ styles['courses-link']}>
             <BsRobot size= { 25 }/>
             Robótica
           </Link>
 
 
-          <Link href= 'https://wa.me/557481086005' className={ styles['courses-link']}>
+          <Link href= 'https://wa.me/557481086005' target='_blank' className={ styles['courses-link']}>
             <IoGameController size= { 25 }/>
             Games
           </Link>
 
-          <Link href= 'https://wa.me/557481086005' className={ styles['courses-link']}>
+          <Link href= 'https://wa.me/557481086005'target='_blank' className={ styles['courses-link']}>
             <MdOutlineComputer size= { 25 }/>
             Programação
           </Link>
 
-          <Link href= 'https://wa.me/557481086005' className={ styles['courses-link']}>
+          <Link href= 'https://wa.me/557481086005' target='_blank' className={ styles['courses-link']}>
             <PiComputerTower size= { 25 }/>
             Analista de tecnologia
           </Link>
 
-          <Link href= 'https://wa.me/557481086005' className={ styles['courses-link']}>
+          <Link href= 'https://wa.me/557481086005' target='_blank' className={ styles['courses-link']}>
             <AiOutlineYoutube size= { 25 }/>
             Youtuber
           </Link>
 
-          <Link href= 'https://wa.me/557481086005' className={ styles['courses-link']}>
+          <Link href= 'https://wa.me/557481086005' target='_blank' className={ styles['courses-link']}>
             <MdOutlineLocalPharmacy size= { 25 }/>
             Atendente de farmácia
           </Link>
 
-          <Link href= 'https://wa.me/557481086005' className={ styles['courses-link']}>
+          <Link href= 'https://wa.me/557481086005' target='_blank' className={ styles['courses-link']}>
             <PiPencil size= { 25 }/>
             Inglês
           </Link>
 
-          <Link href= 'https://wa.me/557481086005' className={ styles['courses-link']}>
+          <Link href= 'https://wa.me/557481086005' target='_blank' className={ styles['courses-link']}>
             <PiMathOperationsBold size= { 25 }/>
             Matemática
           </Link>
